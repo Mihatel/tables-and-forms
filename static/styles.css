@@ -29,3 +29,54 @@ h1 {
 .orders {
     margin: 20px 0;
 }
+
+.pet-form {
+    max-width: 600px;
+    margin: 30px auto;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.form-group.checkbox label {
+    display: inline-block;
+    font-weight: normal;
+}
+
+.form-group.checkbox input {
+    width: auto;
+    margin-right: 8px;
+}
+
+button {
+    background-color: #ad26a4;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #8a1e82;
+}
